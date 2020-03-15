@@ -223,7 +223,7 @@ section[epub|type~="copyright-page"] blockquote br{
 [epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
 	hyphens: none;
 	text-align: right;
-	width: 20%;
+	width: 1em;
 }
 
 [epub|type~="z3998:drama"] td p{
