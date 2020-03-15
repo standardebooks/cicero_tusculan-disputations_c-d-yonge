@@ -57,29 +57,38 @@
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Tusculan_Disputations</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/marcus-tullius-cicero_tusculan-disputations</meta>
-		<dc:creator id="author">Marcus Tullius Cicero</dc:creator>
-		<meta property="file-as" refines="#author">AUTHOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHOR_FULL_NAME</meta>
+		<dc:creator id="author">Cicero</dc:creator>
+		<meta property="file-as" refines="#author">Cicero, Marcus Tullius</meta>
+		<meta property="se:name.person.full-name" refines="#author">Marcus Tullius Cicero</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Marcus_Tullius_Cicero</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHOR_NACOAF_URL</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79032166</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+    <dc:contributor id="translator">C. D. Yonge</dc:contributor>
+    <meta property="file-as" refines="#translator">Yonge, C. D.</meta>
+    <meta property="se:name.person.full-name" refines="#translator">Charles Duke Yonge</meta>
+    <meta property="display-seq" refines="#translator">1</meta>
+    <meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Charles_Duke_Yonge</meta>
+    <meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n86829770</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Ted Garvin</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Garvin, Ted</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Hagen von Eitzen</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-2">von Eitzen, Hagen</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">the PG Online Distributed Proofreading Team.</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David Gross</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
+		<meta property="file-as" refines="#producer-1">Gross, David</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://sniggle.net/TPL</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
