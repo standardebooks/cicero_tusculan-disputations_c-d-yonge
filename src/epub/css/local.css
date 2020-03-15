@@ -55,11 +55,6 @@ span[epub|type~="subtitle"]{
 	text-indent: 0;
 }
 
-table[epub|type~="z3998:drama"],
-[epub|type~="z3998:drama"] table{
-	margin: 1em auto;
-}
-
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
