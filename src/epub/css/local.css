@@ -55,6 +55,10 @@ span[epub|type~="subtitle"]{
 	text-indent: 0;
 }
 
+[epub|type~="z3998:drama"] td p.new{
+	text-indent: 1em;
+}
+
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
