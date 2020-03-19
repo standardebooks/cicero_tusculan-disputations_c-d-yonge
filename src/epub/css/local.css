@@ -20,6 +20,10 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
+p + table[epub|type~="z3998:drama"]{
+	margin-top: 1em;
+}
+
 [epub|type~="z3998:drama"]{
 	border-collapse: collapse;
 }
