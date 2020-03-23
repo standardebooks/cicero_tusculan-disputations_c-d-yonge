@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/cicero/tusculan-disputations/c-d-yonge</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2020-03-23T22:13:21Z</dc:date>
+		<meta property="dcterms:modified">2020-03-23T22:13:21Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -48,16 +48,16 @@
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">Unknown</meta>
 		<meta property="se:subject">Philosophy</meta>
-		<dc:description id="description">Cicero gives practical guidance for living wisely and well by adopting a stoic outlook and concentrating on the virtues.</dc:description>
+		<dc:description id="description">Cicero gives practical guidance for living wisely and well by adopting a Stoic outlook and concentrating on the virtues.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Cicero uses the form of transcribed dialogs of conversations he held at his villa in Tusculum to convey his philosophy of how to live wisely and well. The first, &lt;i&gt;On the Contempt of Death&lt;/i&gt;, reminds us that mortality is nothing to be upset about. The second, &lt;i&gt;On Bearing Pain&lt;/i&gt;, reassures us that philosophy is a balm for pains of the body. The third and fourth, &lt;i&gt;On Grief of Mind&lt;/i&gt; and &lt;i&gt;Other Perturbations of the Mind&lt;/i&gt;, say that this extends also to mental anguish and unrest. The last, &lt;i&gt;Whether Virtue Alone Be Sufficient for a Happy Life&lt;/i&gt;, tells us that the key to happiness is already in our hands: it is not to rely on accidents of fate, but on our own efforts in areas of life that are under our own control.&lt;/p&gt;
+			&lt;p&gt;Cicero composed these discourses while in his villa in Tusculum as he was mourning the death of his daughter, in order to convey his philosophy of how to live wisely and well. They take the form of fictional dialogues between Cicero and his friends, with each one focusing on a particular Stoic theme. The first, “On the Contempt of Death,” reminds us that mortality is nothing to be upset about. The second, “On Bearing Pain,” reassures us that philosophy is a balm for pains of the body. The third and fourth, “On Grief of Mind” and “Other Perturbations of the Mind,” say that this extends also to mental anguish and unrest. The last, “Whether Virtue Alone Be Sufficient for a Happy Life,” tells us that the key to happiness is already in our hands: it is not to rely on accidents of fate, but on our own efforts in areas of life that are under our own control.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/14988</dc:source>
 		<dc:source>https://books.google.com/books?id=EdIIAAAAQAAJ</dc:source>
 		<meta property="se:production-notes">(1) The original book used roman numerals to number many paragraphs in each chapter; I have removed those numbers. (2) I've also made some changes to punctuation; the original translator was in the habit of stringing many sentences together with colons and semicolons and dashes in a way that harmed readability. (3) In chapter 2, there is an error in the original, where the paragraph beginning "Let the Stoics, then..." and those that follow is attributed to Cicero's interrogator and not to Cicero himself; I have corrected this. (4) The original was en-GB; the PG transcribers partially converted it to en-US, and I have continued their work in that direction whereever I noticed it to be incomplete. (5) I have added a style for paragraphs within table cells so as to distinguish genuinely new paragraphs from paragraphs that are only there for markup-purposes (as there isn't a convenient way to embed a blockquote within a paragraph).</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">77126</meta>
+		<meta property="se:reading-ease.flesch">59.16</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Tusculan_Disputations</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/cicero_tusculan-disputations_c-d-yonge</meta>
 		<dc:creator id="author">Cicero</dc:creator>
@@ -87,13 +87,13 @@
 		<dc:contributor id="transcriber-2">Hagen von Eitzen</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">von Eitzen, Hagen</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">the PG Online Distributed Proofreading Team.</dc:contributor>
+		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">David Gross</dc:contributor>
-		<meta property="se:name.person.full-name" refines="#producer-1">David Michael Gross</meta>
+		<dc:contributor id="producer-1">David M. Gross</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Gross, David M.</meta>
+		<meta property="se:name.person.full-name" refines="#producer-1">David Michael Gross</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://sniggle.net/TPL</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
@@ -101,6 +101,14 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://rightword.com.au/david.php</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
+		<dc:contributor id="producer-3">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-3">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-3">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-3" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
