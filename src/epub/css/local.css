@@ -6,6 +6,11 @@ body [xml|lang]{
 	font-style: italic;
 }
 
+body cite > [xml|lang]{
+	font-style: normal;
+}
+
+
 abbr.era{
 	font-variant: all-small-caps;
 }
