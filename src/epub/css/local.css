@@ -80,3 +80,7 @@ table[epub|type~="z3998:drama"]{
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
+
+[xml|lang] [epub|type~="z3998:persona"]{
+	font-style: normal;
+}
