@@ -10,7 +10,7 @@ body cite > [xml|lang]{
 	font-style: normal;
 }
 
-abbr.era{
+[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 
