@@ -69,7 +69,6 @@
 		<dc:contributor id="translator">C. D. Yonge</dc:contributor>
 		<meta property="file-as" refines="#translator">Yonge, C. D.</meta>
 		<meta property="se:name.person.full-name" refines="#translator">Charles Duke Yonge</meta>
-		<meta property="display-seq" refines="#translator">1</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Charles_Duke_Yonge</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n86829770</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
