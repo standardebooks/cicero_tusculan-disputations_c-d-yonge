@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/cicero/tusculan-disputations/c-d-yonge</dc:identifier>
 		<dc:date>2020-03-23T22:13:21Z</dc:date>
 		<meta property="dcterms:modified">2020-03-23T22:13:21Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -47,8 +48,8 @@
 		<meta property="term" refines="#subject-5">sh2008118227</meta>
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh85115180</meta>
-		<meta property="se:subject">Philosophy</meta>
-		<meta property="se:is-a-collection">true</meta>
+		<meta property="schema:genre">Philosophy</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<dc:description id="description">Cicero gives practical guidance for living wisely and well by adopting a Stoic outlook and concentrating on the virtues.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/cicero"&gt;Cicero&lt;/a&gt; composed these discourses while in his villa in Tusculum as he was mourning the death of his daughter, in order to convey his philosophy of how to live wisely and well. They take the form of fictional dialogues between Cicero and his friends, with each one focusing on a particular Stoic theme. The first, “On the Contempt of Death,” reminds us that mortality is nothing to be upset about. The second, “On Bearing Pain,” reassures us that philosophy is a balm for pains of the body. The third and fourth, “On Grief of Mind” and “Other Perturbations of the Mind,” say that this extends also to mental anguish and unrest. The last, “Whether Virtue Alone Be Sufficient for a Happy Life,” tells us that the key to happiness is already in our hands: it is not to rely on accidents of fate, but on our own efforts in areas of life that are under our own control.&lt;/p&gt;
@@ -56,30 +57,31 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/14988</dc:source>
 		<dc:source>https://books.google.com/books?id=EdIIAAAAQAAJ</dc:source>
-		<meta property="se:production-notes">(1) The original book used roman numerals to number many paragraphs in each chapter; I have removed those numbers. (2) I've also made some changes to punctuation; the original translator was in the habit of stringing many sentences together with colons and semicolons and dashes in a way that harmed readability. (3) In chapter 2, there is an error in the original, where the paragraph beginning "Let the Stoics, then..." and those that follow is attributed to Cicero's interrogator and not to Cicero himself; I have corrected this. (4) The original was en-GB; the PG transcribers partially converted it to en-US, and I have continued their work in that direction whereever I noticed it to be incomplete. (5) I have added a style for paragraphs within table cells so as to distinguish genuinely new paragraphs from paragraphs that are only there for markup-purposes (as there isn't a convenient way to embed a blockquote within a paragraph).</meta>
-		<meta property="se:word-count">76944</meta>
-		<meta property="se:reading-ease.flesch">59.26</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Tusculanae_Disputationes</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/cicero_tusculan-disputations_c-d-yonge</meta>
+		<meta property="schema:wordCount">76944</meta>
+		<meta property="schema:educationalLevel">59.26</meta>
+		<link href="https://en.wikipedia.org/wiki/Tusculanae_Disputationes" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/cicero_tusculan-disputations_c-d-yonge" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Cicero</dc:creator>
 		<meta property="file-as" refines="#author">Cicero, Marcus Tullius</meta>
-		<meta property="se:name.person.full-name" refines="#author">Marcus Tullius Cicero</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Marcus_Tullius_Cicero</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79032166</meta>
+		<meta property="schema:alternateName" refines="#author">Marcus Tullius Cicero</meta>
+		<link href="https://en.wikipedia.org/wiki/Marcus_Tullius_Cicero" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79032166.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">C. D. Yonge</dc:contributor>
 		<meta property="file-as" refines="#translator">Yonge, C. D.</meta>
-		<meta property="se:name.person.full-name" refines="#translator">Charles Duke Yonge</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Charles_Duke_Yonge</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n86829770</meta>
+		<meta property="schema:alternateName" refines="#translator">Charles Duke Yonge</meta>
+		<link href="https://en.wikipedia.org/wiki/Charles_Duke_Yonge" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n86829770.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">win</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Henry Fuseli</dc:contributor>
 		<meta property="file-as" refines="#artist">Fuseli, Henry</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Henry_Fuseli</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79021856</meta>
+		<link href="https://en.wikipedia.org/wiki/Henry_Fuseli" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79021856.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Ted Garvin</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Garvin, Ted</meta>
@@ -89,12 +91,12 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David M. Gross</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Gross, David M.</meta>
-		<meta property="se:name.person.full-name" refines="#producer-1">David Michael Gross</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://sniggle.net/TPL</meta>
+		<meta property="schema:alternateName" refines="#producer-1">David Michael Gross</meta>
+		<link href="https://sniggle.net/TPL" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -104,11 +106,11 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://thegriggs.org/david/</meta>
+		<link href="https://thegriggs.org/david/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 		<dc:contributor id="producer-3">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-3">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-3">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-3" rel="schema:url"/>
 		<meta property="role" refines="#producer-3" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
