@@ -66,7 +66,7 @@
 		<dc:creator id="author">Cicero</dc:creator>
 		<meta property="file-as" refines="#author">Cicero, Marcus Tullius</meta>
 		<meta property="schema:alternateName" refines="#author">Marcus Tullius Cicero</meta>
-		<link href="https://en.wikipedia.org/wiki/Marcus_Tullius_Cicero" refines="#author" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Cicero" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79032166.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">C. D. Yonge</dc:contributor>
